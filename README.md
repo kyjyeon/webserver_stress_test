@@ -3,7 +3,7 @@
 <h2>webserver stress test on aws-EC2 VM</h2><br>
 <h3>Preparation</h3><br>
 1. Wordpress Instance - Heavy web application for defense<br>
-2. Ubuntu Instance with `apache2 utils` installed - For Attacker
+2. Ubuntu Instance with `apache2 utils` installed For Attacker
 
 <h3>Methods</h3><br>
 1.In your 'Attacker' Ubuntu, `sudo apt-get update`
