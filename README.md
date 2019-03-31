@@ -3,7 +3,7 @@
 <h2>webserver stress test on aws-EC2 VM</h2><br>
 <h3>Preparation</h3><br>
 1. Wordpress Instance - Heavy web application for defense<br>
-2. Ubuntu Instance with ```apache2 utils``` installed - For Attacker<br><br>
+2. Ubuntu Instance with ```apache2 utils``` installed - For Attacker
 
 <h3>Methods</h3><br>
 1. In your 'Attacker' Ubuntu, ```sudo apt-get update``` to update all versions first using terminal<br>
@@ -28,5 +28,5 @@
 | 1000          | 1000          | 19.259      |   none |
 | 3000          | 1000          | -           |   9    |
 <br>
-<b>The higher concurrency the longer 'Time per request'</b><br>
-<b>The last test 3000 request started to slow down from 2400 request.</b><br>
+<b>-The higher concurrency the longer 'Time per request'</b><br>
+<b>-The last test 3000 request started to slow down from 2400 request.</b><br>
