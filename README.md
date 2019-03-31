@@ -3,8 +3,8 @@
 <h3>Objective</h3><br>
 Create virtual user request(numbers / concurrent) input to a web application address and check the overall status of the web server
 <h3>Preparation</h3><br>
-1. Wordpress Instance - Heavy web application for defense<br>
-2. Ubuntu Instance with <b>apache2 utils</b> installed for Attacker<br>
+Wordpress Instance - Heavy web application for defense<br>
+Ubuntu Instance with <b>apache2 utils</b> installed for Attacker<br>
 
 <h3>Methods</h3 ><br> 
 In your 'Attacker' Ubuntu `sudo apt-get update` to update all versions first using terminal<br>
