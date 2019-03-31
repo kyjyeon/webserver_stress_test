@@ -1,4 +1,4 @@
-#webserver_stress_test_on aws-EC2 vm
+# webserver_stress_test_on aws-EC2 vm
 <h2>Description</h2><br>
 <h3>Objective</h3><br>
 Create virtual user request(numbers / concurrent) input to a web application address and check the overall status of the web server
@@ -9,7 +9,7 @@ Create virtual user request(numbers / concurrent) input to a web application add
 <h3>Methods</h3><br>
 1. In your 'Attacker' Ubuntu,
 ```
-sudo apt-get update
+ sudo apt-get update 
 ``` 
 to update all versions first using terminal<br>
 2. Write command `sudo apt-get install apache-utils`<br>
