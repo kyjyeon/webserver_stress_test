@@ -1,6 +1,7 @@
-# webserver_stress_test
+# webserver_stress_test on aws-EC2 vm
 <h2>Description</h2><br>
-<h2>webserver stress test on aws-EC2 VM</h2><br>
+<h3>Objective</h3><br>
+Create virtual user request(numbers / concurrent) input to a web application address and check the overall status of the web server
 <h3>Preparation</h3><br>
 Wordpress Instance  Heavy web application for defense <br>
 Ubuntu Instance with  <b>apache2 utils</b>  installed For Attacker <br>
