@@ -1,26 +1,19 @@
-# webserver_stress_test on aws-EC2 vm
+# webserver_stress_test_on aws-EC2 vm
 <h2>Description</h2><br>
 <h3>Objective</h3><br>
 Create virtual user request(numbers / concurrent) input to a web application address and check the overall status of the web server
 <h3>Preparation</h3><br>
-Wordpress Instance  Heavy web application for defense <br>
-Ubuntu Instance with  <b>apache2 utils</b>  installed For Attacker <br>
+1. Wordpress Instance - Heavy web application for defense<br>
+2. Ubuntu Instance with <b>apache2 utils</b> installed - For Attacker
 
 <h3>Methods</h3><br>
-In your 'Attacker' Ubuntu, write 
-```
-sudo apt-get update
-```  
-to update all versions first using terminal<br>
-Write command  `sudo apt-get install apache-utils` <br>
-After downloading, write `ab` and you can checkout the description of usage<br>
-In your 'Defender' wordpress, write `top` at command to see status
-Write command 
-```
-ab -n <"number of request you want"> -c <"number of concurrent you want"> http://<your ip or dns address>/
-``` 
-<br>
-Will see CPU usage rate, new resource usage by ex- php, apache, mysql<br>
+1. In your 'Attacker' Ubuntu,
+```sudo apt-get update``` to update all versions first using terminal<br>
+2. Write command `sudo apt-get install apache-utils`<br>
+3. After downloading, write `ab` and you can checkout the description of usage<br>
+4. In your 'Defender' wordpress, write `top` at command to see status
+5. Write command `ab -n <"number of request you want"> -c <"number of concurrent you want"> http://<your ip or dns address/>`<br>
+6. Will see CPU usage rate, new resource usage by ex- php, apache, mysql<br>
 
 
 <h2>Personal Result</h2><br>
