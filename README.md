@@ -30,7 +30,7 @@ Create virtual user request(numbers / concurrent) input to a web application add
 | 1000          | 50            | 19.471      |   none |
 | 1000          | 200           | 19.086      |   none |
 | 1000          | 1000          | 19.259      |   none |
-| 3000          | 1000          | N/A         |   9    |
+| 3000          | 1000          | N / A         |   9    |
 <br>
 <b>-The higher concurrency the longer 'Time per request'</b><br>
 <b>-The last test 3000 request started to slow down from 2400 request.</b><br>
