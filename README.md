@@ -8,7 +8,10 @@ Create virtual user request(numbers / concurrent) input to a web application add
 
 <h3>Methods</h3><br>
 1. In your 'Attacker' Ubuntu,
-```sudo apt-get update``` to update all versions first using terminal<br>
+```
+sudo apt-get update
+``` 
+to update all versions first using terminal<br>
 2. Write command `sudo apt-get install apache-utils`<br>
 3. After downloading, write `ab` and you can checkout the description of usage<br>
 4. In your 'Defender' wordpress, write `top` at command to see status
