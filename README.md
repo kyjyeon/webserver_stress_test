@@ -6,14 +6,16 @@
 2. Ubuntu Instance with `apache2 utils` installed - For Attacker
 
 <h3>Methods</h3><br>
-In your 'Attacker' Ubuntu, `sudo apt-get update` to update all versions first using terminal<br>
+In your 'Attacker' Ubuntu, 
+```
+sudo apt-get update
+``` to update all versions first using terminal<br>
 Write command `sudo apt-get install apache-utils`<br>
 After downloading, write `ab` and you can checkout the description of usage<br>
 In your 'Defender' wordpress, write `top` at command to see status
 Write command `ab -n <"number of request you want"> -c <"number of concurrent you want"> http://<your ip or dns address/>`<br>
 Will see CPU usage rate, new resource usage by ex- php, apache, mysql<br>
 
-```test teest```
 
 <h2>Personal Result</h2><br>
 
