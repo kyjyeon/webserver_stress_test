@@ -2,7 +2,7 @@
 <h2>Description</h2><br>
 <h3>Objective</h3><br>
 Create virtual user request(numbers / concurrent) input to a web application address and check the overall status of the web server
-<h3>Preparation</h3><br>
+<h3>Tools</h3><br>
 
 1. Wordpress Instance - Heavy web application for defense<br>
 2. Ubuntu Instance with `apache2 utils` installed for Attacker<br>
