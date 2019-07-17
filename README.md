@@ -17,7 +17,7 @@ Create virtual user request(numbers / concurrent) input to a web application add
 6. Will see CPU usage rate, new resource usage by ex- php, apache, mysql<br>
 
 
-<h2>Personal Result</h2><br>
+<h2>Result</h2><br>
 
 | Request       | Concurreny    | Time_taken  | Failed | 
 | ------------- |:-------------:| -----------:|-------:|
