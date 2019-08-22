@@ -1,6 +1,5 @@
 # webserver_stress_test_on aws-EC2 vm
 <h2>Description</h2><br>
-<h3>Objective</h3><br>
 Create virtual user request(numbers / concurrent) input to a web application address and check the overall status of the web server
 <h3>Tools</h3><br>
 
