@@ -5,7 +5,7 @@ Create virtual user request(numbers / concurrent) input to a web application add
 <h3>Tools</h3><br>
 
 1. Wordpress Instance - Heavy web application for defense<br>
-2. Ubuntu Instance with `apache2 utils` installed for Attacker<br>
+2. Ubuntu Instance with `apache2 utils` installed for Attack<br>
 
 <h3>Methods</h3 ><br> 
 
